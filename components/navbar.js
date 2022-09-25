@@ -115,6 +115,7 @@ const Navbar = props => {
                 <MenuItem
                   as={Link}
                   href="https://github.com/devinlinux/latindatabase"
+                  target="_blank"
                 >
                   View Source
                 </MenuItem>
