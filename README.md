@@ -13,7 +13,4 @@ This database in no way guarantees your success in any way and much hard work an
 
 
 
-The SPQR Eagle model was provided by dynamone via sketchfab
-
-"Spqr eagle" (https://skfb.ly/6CCSN) by dynamone is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-All credit for the model is given to dynamone
+"Vatican and St. Peter Basilica" (https://skfb.ly/6TwVH) by Ignazio Pillitteri is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
