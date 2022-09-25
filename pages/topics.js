@@ -29,7 +29,7 @@ const Works = () => (
             thumbnail={thumbWalknote}
           >
             The conjugations of Latin verbs. This will be helpful when you
-            chane the tense and person of verbs. 
+            change the tense and person of verbs. 
           </WorkGridItem>
         </Section>
 
