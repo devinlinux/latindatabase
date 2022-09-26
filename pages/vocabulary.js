@@ -4,8 +4,8 @@ import { WordBox } from '../components/wordbox'
 
 const Vocabulary = () => (
     <Layout title="Vocabulary">
-        <Container>
-            <Input placeholder='Search Word' onKeyUp={search} id="searchbar" borderColor={useColorModeValue('#ABADB6', 'whiteAlpha.400')} mt={14}></Input>
+        <Container paddingTop={35}>
+            <Input placeholder='&#x1F50D; Search Word' onKeyUp={search} id="searchbar" borderColor={useColorModeValue('#ABADB6', 'whiteAlpha.400')} mt={14}></Input>
 
             <WordBox word="Canis, Canis | 3rd Common" id="canisdog">
                 Dog
@@ -993,6 +993,266 @@ const Vocabulary = () => (
 
             <WordBox word="Vos" id="vosyouall">
                 You All
+            </WordBox>
+
+            <WordBox word="Advenio, Advenīre, Advēnī, Adventum" id="adveniretoarrive">
+                To Arrive
+            </WordBox>
+
+            <WordBox word="Aedificium, Aedificiī | 2nd Neuter" id="aedificiumabuilding">
+                A Building
+            </WordBox>
+
+            <WordBox word="Aeger, Aegra, Aegrum" id="aegeraegraaegrumsickill">
+                Sick / Ill
+            </WordBox>
+
+            <WordBox word="Alter, Altera, Alterum" id="alteralteraalterumtheother">
+                The Other
+            </WordBox>
+
+            <WordBox word="Canto, Cantāre, Cantāvī, Cantātum" id="cantaretosing">
+                To Sing
+            </WordBox>
+
+            <WordBox word="Ceterī, Ceterae, Cetera" id="cetericeteraeceteratheotherstherest">
+                The Others / The Rest
+            </WordBox>
+
+            <WordBox word="Custos, Custodis | 3rd Masculine" id="custosguard">
+                Guard
+            </WordBox>
+
+            <WordBox word="Dico, Dicere, Dīxī, Dictum" id="diceretosaytospeaktocall">
+                To Say / To Speak / To Call
+            </WordBox>
+
+            <WordBox word="Excito, Excitāre, Excitāvī, Excitātum" id="exitaretoarousetowakeup">
+                To Arounse / To Wake Up
+            </WordBox>
+
+            <WordBox word="Fessus, Fessa, Fessum" id="fessusfessafessumtired">
+                Tired
+            </WordBox>
+
+            <WordBox word="Interficio, Interficere, Interfēcī, Interfectum" id="interficeretokill">
+                To Kill
+            </WordBox>
+
+            <WordBox word="Nolo, Non velle, Nolui" id="nonvelletonotwant">
+                To Not Want
+            </WordBox>
+
+            <WordBox word="Novus, Nova, Novum" id="novusnovanovumnewstrange">
+                New / Strange
+            </WordBox>
+
+            <WordBox word="Nullus, Nulla, Nullum" id="nullusnullanullumnonotanynone">
+                No / Not Any / None
+            </WordBox>
+
+            <WordBox word="Possum, Posse, Potui" id="possumpossepotuitobeable">
+                To Be Able
+            </WordBox>
+
+            <WordBox word="Ruo, Ruere, Ruī, Rutum" id="rueretorush">
+                To Rush
+            </WordBox>
+
+            <WordBox word="Sē" id="sehimselfherselfitselfthemselves">
+                Himself / Herself / itself / Themselves
+            </WordBox>
+
+            <WordBox word="Traho, Trahere, Traxī, Tractum" id="traheretodrag">
+                To Drag
+            </WordBox>
+
+            <WordBox word="Vita, Vitae | 1st Feminine" id="vitalife">
+                Life
+            </WordBox>
+
+            <WordBox word="Volo, Velle, Voluī" id="volovellevoluitowant">
+                To Want
+            </WordBox>
+
+            <WordBox word="Vulnero, Vulnerāre, Vulnerāvī, Vulnerātum" id="vulneraretowound">
+                To Wound
+            </WordBox>
+
+            <WordBox word="Aliquid" id="aliquidsomething">
+                Something
+            </WordBox>
+
+            <WordBox word="Apud" id="apudamongatthehouseof">
+                Among / At The House Of
+            </WordBox>
+
+            <WordBox word="Attonitus, Attonita, Attonitum" id="attonitusattonitaattonitumastonished">
+                Astonished
+            </WordBox>
+
+            <WordBox word="Aula, Aulae | 1st Feminine" id="aulapalace">
+                Palace
+            </WordBox>
+
+            <WordBox word="Cotidiē" id="cotidieeveryday">
+                Every Day
+            </WordBox>
+
+            <WordBox word="Decorus, Decora, Decorum" id="decorusdecoradecorumrightproper">
+                Right / Proper
+            </WordBox>
+
+            <WordBox word="Deleo, Delēre, Delēvī, Delētum" id="deleretodestroy">
+                To Destroy
+            </WordBox>
+
+            <WordBox word="Deus, Deī | 2nd Masculine" id="deusgod">
+                God
+            </WordBox>
+
+            <WordBox word="Difficilis, Difficilis, Difficile" id="difficilisdifficilisdifficiledifficult">
+                Difficult
+            </WordBox>
+
+            <WordBox word="Diligenter" id="diligentercarefully">
+                Carefully
+            </WordBox>
+
+            <WordBox word="Domina, Dominae | 1st Feminine" id="dominamistressladyofthehouse">
+                Mistress / Lady Of The House
+            </WordBox>
+
+            <WordBox word="Donum, Donī | 2nd Neuter" id="donumgiftpresent">
+                Gift / Present
+            </WordBox>
+
+            <WordBox word="Fidelis, Fidelis, Fidele" id="fidelisfaithfulloyal">
+                Faithful / Loyal
+            </WordBox>
+
+            <WordBox word="Ipse, Ipsa, Ipsum" id="ipseipsaipsumhimselfherselfitself">
+                Himself / Herself / Itself
+            </WordBox>
+
+            <WordBox word="Iste, Ista, Istud" id="isteistaistudthat">
+                That
+            </WordBox>
+
+            <WordBox word="Maritus, Maritī | 2nd Masculine" id="maritushusband">
+                Husband
+            </WordBox>
+
+            <WordBox word="Necesse" id="necessenecessary">
+                Necessary
+            </WordBox>
+
+            <WordBox word="Num" id="numsurelynot">
+                Surely...not?
+            </WordBox>
+
+            <WordBox word="Quam" id="quamhow">
+                How
+            </WordBox>
+
+            <WordBox word="Quamquam" id="quamquamalthough">
+                Although
+            </WordBox>
+
+            <WordBox word="-que" id="queand">
+                And
+            </WordBox>
+
+            <WordBox word="Rex, Regis | 3rd Masculine" id="rexking">
+                King
+            </WordBox>
+
+            <WordBox word="Agmen, Agminis | 3rd Neuter" id="agmenrowcolumnofpeopleprocession">
+                Row / Column of Poeple / Procession
+            </WordBox>
+
+            <WordBox word="Alius, Alia, Aliud" id="aliuaaliaaliudotheranother">
+                Other / Another
+            </WordBox>
+
+            <WordBox word="Aqua, Aquae | 1st Feminine" id="aquawater">
+                Water
+            </WordBox>
+
+            <WordBox word="Claudo, Claudere, Clausī, Clausum" id="clauderetoshuttoblock">
+                To Shut / To Block
+            </WordBox>
+
+            <WordBox word="Commodus, Commoda, Commodum" id="commoduscommodacommodumconvenient">
+                Convenient
+            </WordBox>
+
+            <WordBox word="Debeo, Debēre, Debuī, Debitum" id="deberetoowetoought">
+                To Owe / To Ought
+            </WordBox>
+
+            <WordBox word="Equus, Equī | 2nd Masculine" id="equushorse">
+                Horse
+            </WordBox>
+
+            <WordBox word="Etiam" id="etiamevenalso">
+                Even / Also
+            </WordBox>
+
+            <WordBox word="Impedio, Impedīre, Impedīvī, Impeditum" id="impediretohindertodelay">
+                To Hinder / To Delay
+            </WordBox>
+
+            <WordBox word="Lectus, Lectī | 2nd Masculine" id="lectuscouchbed">
+                Couch / Bed
+            </WordBox>
+
+            <WordBox word="Lentē" id="lenteslowly">
+                Slowly
+            </WordBox>
+
+            <WordBox word="Litus, Litōris | 3rd Neuter" id="litusseashoreshore">
+                Seashore / Shore
+            </WordBox>
+
+            <WordBox word="Mare, Mari | 3rd Neuter" id="maresea">
+                Sea
+            </WordBox>
+
+            <WordBox word="Miser, Misera, Miserum" id="misermiseramiserummiserablewretched">
+                Miserable / Wretched
+            </WordBox>
+
+            <WordBox word="Nauta, Nautae | 1st Masculine" id="nautasailor">
+                Sailor
+            </WordBox>
+
+            <WordBox word="Princeps, Principis | 3rd Masculine" id="princepschiefchieftain">
+                Chief / Chieftain
+            </WordBox>
+
+            <WordBox word="Qui, Quae, Quod" id="quiquadquodwhowhichthat">
+                Who / Which / That
+            </WordBox>
+
+            <WordBox word="Redeo, Redēre, Redīī, Reditum" id="rederetoreturntogoback">
+                To Return / To Go Back
+            </WordBox>
+
+            <WordBox word="Sacerdos, Sacerdotis | 3rd Masculine" id="sacerdospriest">
+                Priest
+            </WordBox>
+
+            <WordBox word="Teneo, Tenēre, Tenuī, Tentum" id="teneretohold">
+                To Hold
+            </WordBox>
+
+            <WordBox word="Unda, Undae | 1st Feminine" id="undawave">
+                Wave
+            </WordBox>
+
+            <WordBox word="Vinco, Vincere, Vīcī, Victim" id="vinceretowintobevictoriustoconquer">
+                To Win / To be Victorious / To Conquer
             </WordBox>
 
         </Container>
