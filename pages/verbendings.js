@@ -291,6 +291,65 @@ const VerbEndings = () => (
             </Section>
 
             <Divider orientation='horizontal' />
+
+            <Section delay={0.7}>
+                <Heading as="h3" variant="section-title">
+                    Pluperfect Tense
+                </Heading>
+
+                <Paragraph>
+                    The pluperfect tense is used to talk about actions
+                    that had happened before another action that also
+                    occured in the past.
+                    <br></br>
+                    I had ran / They had sat
+                    <br></br>
+                    <br></br>
+                    The process to get a verb into the pluperfect tense
+                    is to take the third principle part, remove the -ī,
+                    add a -era, then add the corrent ending. There are no
+                    special rules for the pluperfect tense!
+                </Paragraph>
+                <TableContainer>
+                    <Table variant="simple">
+                        <TableCaption>Pluperfect Tense Endings</TableCaption>
+                        <Thead>
+                            <Tr>
+                                <Td>English Person</Td>
+                                <Td>Latin Verb Ending</Td>
+                            </Tr>
+                        </Thead>
+                        <Tbody>
+                            <Tr>
+                                <Td>I</Td>
+                                <Td>-m</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>You</Td>
+                                <Td>-s</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>He / She / It</Td>
+                                <Td>-t</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>We</Td>
+                                <Td>-mus</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>You all</Td>
+                                <Td>-tis</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>They</Td>
+                                <Td>-nt</Td>
+                            </Tr>
+                        </Tbody>
+                    </Table>
+                </TableContainer>
+                <br></br>
+                <br></br>
+            </Section>
         </Container>
     </Layout>
 )
