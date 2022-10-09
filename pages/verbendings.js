@@ -307,7 +307,7 @@ const VerbEndings = () => (
                     <br></br>
                     The process to get a verb into the pluperfect tense
                     is to take the third principle part, remove the -ī,
-                    add a -era, then add the corrent ending. There are no
+                    add a -era, then add the correct ending. There are no
                     special rules for the pluperfect tense!
                 </Paragraph>
                 <TableContainer>
