@@ -1262,11 +1262,12 @@ const Vocabulary = () => (
 function search() {
     console.log("hello")
     let input = document.getElementById('searchbar').value.toLowerCase()
+    let indexID = document.getElementsByClassName('css-f8n5zr')
     let words = document.getElementsByClassName('css-1oiguqt')
     console.log(words.length)
     for (let i = 0; i < words.length; i++) {
         console.log(words[i])
-        if (!words[i].innerHTML.toLowerCase().includes(input)) {
+        if (!indexID[i].innerHTML.toLowerCase().includes(input)) {
             words[i].style.display='none'
         } else {
             words[i].style.display='block'
