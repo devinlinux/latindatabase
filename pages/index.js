@@ -40,7 +40,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Latin Database v1.0.0
+            Latin Database v1.0.1
           </Heading>
           <p>Online Latin Learning Tool</p>
         </Box>
