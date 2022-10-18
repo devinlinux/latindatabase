@@ -298,7 +298,7 @@ const VerbEndings = () => (
                 </Heading>
 
                 <Paragraph>
-                    The perfect tense is used to talk about actions that 
+                    The future tense is used to talk about actions that 
                     will happen in the future. 
                     <br></br>
                     I will run / I will sit
