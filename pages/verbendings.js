@@ -294,6 +294,128 @@ const VerbEndings = () => (
 
             <Section delay={0.7}>
                 <Heading as="h3" variant="section-title">
+                    Future Tense
+                </Heading>
+
+                <Paragraph>
+                    The perfect tense is used to talk about actions that 
+                    will happen in the future. 
+                    <br></br>
+                    I will run / I will sit
+                    <br></br>
+                    <br></br>
+                    The process to get a verb into the future tense is to 
+                    take the second principle part remove the -re, add the 
+                    correct letters to the stem, and add the correct personal
+                    ending. Finally, you take the verb and change it according 
+                    to the rules.
+                </Paragraph>
+                <TableContainer>
+                    <Table variant="simple">
+                        <TableCaption>Future Tense Endings</TableCaption>
+                        <Thead>
+                            <Tr>
+                                <Td>English Person</Td>
+                                <Td>Latin Verb Ending</Td>
+                            </Tr>
+                        </Thead>
+                        <Tbody>
+                            <Tr>
+                                <Td>
+                                    I
+                                </Td>
+                                <Td>
+                                    -m / -o (first and second conjugation only)
+                                </Td>
+                            </Tr>
+                            <Tr>
+                                <Td>You</Td>
+                                <Td>-s</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>He / She / It</Td>
+                                <Td>-t</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>We</Td>
+                                <Td>-mus</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>You all</Td>
+                                <Td>-tis</Td>
+                            </Tr>
+                            <Tr>
+                                <Td>They</Td>
+                                <Td>-nt</Td>
+                            </Tr>
+                        </Tbody>
+                    </Table>
+                </TableContainer>
+                <Container>
+                    The future tense has additional rules to form that 
+                    cannot be generalized, so this will be a guide to 
+                    form the word with each conjugation.
+
+                    <Heading as="h3" variant="section-title">
+                        1st Conjugation
+                    </Heading>
+                    <Text>
+                        - take the second principle part and remove the -re<br></br>
+                        - add the letters -bi<br></br>
+                        - add the personal ending<br></br>
+                        - remove the i at the end of -bi when the ending is -o<br></br>
+                        - change the i at the end of -bi to a u when the ending is -nt
+                    </Text>
+
+                    <Heading as="h3" variant="section-title">
+                        2nd Conjugation
+                    </Heading>
+                    <Text>
+                        - take the second principle part and remove the -re<br></br>
+                        - add the letters -bi<br></br>
+                        - add the personal ending<br></br>
+                        - remove the i at the end of -bi when the ending is -o<br></br>
+                        - change the i at the end of -bu to a u when the ending is -nt
+                    </Text>
+
+                    <Heading as="h3" variant="section-title">
+                        3rd Conjugation
+                    </Heading>
+                    <Text>
+                        - take the second principle part and remove the -re<br></br>
+                        - add a macron to the e (ē)<br></br>
+                        - add the personal ending<br></br>
+                        - the ē changes to an a when the ending is -m<br></br>
+                        - the ē loses the macron when the ending is -t or -nt<br></br>
+                    </Text>
+
+                    <Heading as="h3" variant="section-title">
+                        3rd -io Conjugation
+                    </Heading>
+                    <Text>
+                        - take the second principle part and remove the -re<br></br>
+                        - add add macron to the e (ē)<br></br>
+                        - add the personal ending<br></br>
+                        - the ē changes to an a when the ending is -m<br></br>
+                        - the ē loses the macron when the ending is -t or -nt
+                    </Text>
+
+                    <Heading as="h3" variant="section-title">
+                        4th Conjugation
+                    </Heading>
+                    <Text>
+                        - take the second principle part and remove the -re<br></br>
+                        - remove the marcron from the ī (i)<br></br>
+                        - add a -ē<br></br>
+                        - add a personal ending<br></br>
+                        - the ē changes to an a when the ending is -m<br></br>
+                        - the ē loses the macron when the ending is -t or -nt
+                    </Text>
+                </Container>
+            </Section>
+
+            <Section delay={0.9}>
+                <Heading as="h3" variant="section-title">
                     Pluperfect Tense
                 </Heading>
 
