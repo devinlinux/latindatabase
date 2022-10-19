@@ -414,6 +414,8 @@ const VerbEndings = () => (
                 </Container>
             </Section>
 
+            <Divider orientation="horizontal" />
+
             <Section delay={0.9}>
                 <Heading as="h3" variant="section-title">
                     Pluperfect Tense
