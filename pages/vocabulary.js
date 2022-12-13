@@ -868,7 +868,7 @@ const Vocabulary = () => (
             </WordBox>
 
             <WordBox word="Mirabilis, Mirabilis, Mirabile" id="mirabilismirabilismirabilestrageextraordinary">
-                Strange / Ordinary
+                Strange / Extraordinary
             </WordBox>
 
             <WordBox word="Mitto, Mittere, Mīsī, Missum" id="mitteretosend">
