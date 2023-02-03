@@ -9,6 +9,8 @@ import thumbVerbEndings from '../public/images/works/endings_eyecatch.png'
 import thumbVocab from '../public/images/works/vocabulary_eyecatch.png'
 import thumbIndirect from '../public/images/works/indirect_eyecatch.png'
 import thumbActiveInfinitives from '../public/images/works/ainfinitives_eyecatch.png'
+import thumbComparatives from '../public/images/works/comparatives_eyecatch.png'
+import thumbSuperlatives from '../public/images/works/superlatives_eyecatch.png'
 
 const Works = () => (
   <Layout title="Topics">
@@ -68,6 +70,24 @@ const Works = () => (
             thumbnail={thumbActiveInfinitives}
           >
             General information on how to form and use infinitives. 
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="modules/superlatives"
+            title="Superlatives"
+            thumbnail={thumbSuperlatives}
+          >
+            Superlatives in Latin
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="modules/comparatives"
+            title="Comparatives"
+            thumbnail={thumbComparatives}
+          >
+            Comparatives in Latin
           </WorkGridItem>
         </Section>
       </SimpleGrid>
