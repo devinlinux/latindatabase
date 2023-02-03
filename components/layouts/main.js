@@ -3,10 +3,11 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import Loader from '../spqr-loader'
+import Loader from '../wall-loader'
 
-const SpqrEagle = dynamic(() => import('../spqr-eagle'), {
-  ssr: false,
+
+const Wall = dynamic(() => import('../wall'), {
+  ssr: true,
   loading: () => <Loader />
 })
 
@@ -29,7 +30,7 @@ const Main = ({ children, router }) => {
       <NavBar path={router.asPath} />
 
       <Container maxW="container.md" pt={14}>
-        <SpqrEagle />
+        <Wall />
 
         {children}
 

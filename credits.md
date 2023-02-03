@@ -1,0 +1,2 @@
+"Vatican and St. Peter Basilica" (https://skfb.ly/6TwVH) by Ignazio Pillitteri is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+"London Roman Wall At Tower Hill" (https://skfb.ly/6zIOF) by artfletch is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

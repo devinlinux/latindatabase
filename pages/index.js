@@ -23,6 +23,7 @@ const ProfileImage = chakra(Image, {
 })
 
 const Home = () => (
+
   <Layout>
     <Container>
       <Box
@@ -36,11 +37,11 @@ const Home = () => (
       >
         Learn Latin with the Latin Database by Michael Bobrowski
       </Box>
-
+      
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Latin Database v1.1.0
+            Latin Database v2.0.0
           </Heading>
           <p>Online Latin Learning Tool</p>
         </Box>
@@ -61,7 +62,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/icons/caecilius.jpg"
+              src="/icons/bregans.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
