@@ -11,6 +11,10 @@ const Vocabulary = () => (
                 Dog
             </WordBox>
 
+            <WordBox word="Narro, Narrare, Narravī, Narratus" id="narronarrarenarravinarratustotell">
+                To Tell
+            </WordBox>
+
             <WordBox word="Coquus, Coquī | 2nd Masculine" id="coquuschef">
                 Chef
             </WordBox>
