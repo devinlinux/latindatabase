@@ -102,7 +102,7 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>753 BC</BioYear>
-          Rome is Founded by Romulus, a fictional character who killed his
+          Rome is Founded by Romulus, a mythological character who killed his
           brother Remus. At this point there are only a few thousand people
           speaking Latin in and around Rome.
         </BioSection>
@@ -143,7 +143,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>1400-1650</BioYear>
-          During the renaissance, people start reading Latin classical authors
+          During the Renaissance, people start reading Latin classical authors
           and bringing Latin words into their language. 
         </BioSection>
         <BioSection>
